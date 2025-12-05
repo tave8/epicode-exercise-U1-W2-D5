@@ -15,14 +15,26 @@ header {
 header > .row {
 }
 
-/* header: row 1 */
-header > .row:nth-child(1) {
+header > .row-logo {
+  padding: 0.5rem 1rem;
   background-color: blue;
 }
 
-/* header: row 2 */
-header > .row:nth-child(2) {
+header > .row-logo > img {
+  width: 8rem;
+}
+
+header > .row-menu {
+  padding: 0.3rem 1rem;
   background-color: rgb(80, 80, 182);
+}
+
+header > .row-menu > ul {
+  list-style-type: none;
+}
+
+header > .row-menu > ul > li {
+  display: inline;
 }
 
 main {
@@ -137,5 +149,5 @@ footer > .row-logo > .wrapper {
 }
 
 footer > .row-logo > .wrapper > img {
-    width: 8rem;
+  width: 8rem;
 }
