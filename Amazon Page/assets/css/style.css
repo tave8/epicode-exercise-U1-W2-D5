@@ -28,7 +28,7 @@ header > .row-menu {
   padding: 0.5rem 1rem;
   background-color: rgb(80, 80, 182);
   color: white;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 header > .row-menu > ul {
@@ -40,7 +40,7 @@ header > .row-menu > ul > li {
 }
 
 header > .row-menu > ul > li:not(:last-child) {
-  margin-right: .5rem;
+  margin-right: 0.5rem;
 }
 
 main {
@@ -59,7 +59,7 @@ main > .row-shop-holiday-gift-cards {
   background-color: orange;
   text-align: center;
   height: 20%;
-  padding-block: .5rem;
+  padding-block: 0.5rem;
   color: white;
 }
 
@@ -68,11 +68,14 @@ main > .row-shop-holiday-gift-cards > .wrapper {
   margin: auto;
 }
 
-
 main > .row-holiday-gift-guides {
-  background-color: green;
   padding-block: 2rem;
   color: white;
+  /* backgrounds */
+  background-image: url("../../../Amazon Page/assets/images/bg-image.png");
+  background-position: left top;
+  background-repeat: repeat;
+  background-size: 90%;
 }
 
 main > .row-holiday-gift-guides > .text {
@@ -90,11 +93,8 @@ main > .row-holiday-gift-guides > .text > p.bigger {
 }
 
 main > .row-holiday-gift-guides > .text > p.smaller {
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
-
-
-
 
 main > .row-find-perfect-gift {
   background-color: white;
@@ -106,12 +106,14 @@ main > .row-find-perfect-gift > .title {
 }
 
 main > .row-find-perfect-gift > .content {
+  /* height: 100%; */
 }
 
 /* the wrapper allows for centering items horizontally */
 main > .row-find-perfect-gift > .content > .wrapper {
   margin: auto;
   width: max-content;
+  /* height: 100%; */
 }
 
 main > .row-find-perfect-gift > .content > .wrapper > .card {
@@ -124,6 +126,11 @@ main > .row-find-perfect-gift > .content > .wrapper > .card {
 
 main > .row-find-perfect-gift > .content > .wrapper > .card:not(:last-child) {
   margin-right: 0.5rem;
+}
+
+main > .row-find-perfect-gift > .content > .wrapper > .card > img {
+  object-fit: cover;
+  width: 100%;
 }
 
 main > .row-play-gifting-game {
@@ -165,6 +172,10 @@ footer > .row-back-top {
   background-color: blue;
   text-align: center;
   padding-block: 0.5rem;
+}
+
+footer > .row-back-top a {
+  color: white;
 }
 
 footer > .row-logo {
