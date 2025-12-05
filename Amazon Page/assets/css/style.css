@@ -94,11 +94,27 @@ main > .row-play-gifting-game > .row-img {
     
 }
 
+main > .row-play-gifting-game > .row-img > img {
+    width: 100%;
+
+}
+
 main > .row-play-gifting-game > .row-caption {
-    
+    text-align: center;
 }
 
 main > .row-sound-cheer {
+}
+
+main > .row-sound-cheer > .row-img {
+}
+
+main > .row-sound-cheer > .row-img > img {
+    width: 100%;
+}
+
+main > .row-sound-cheer > .row-caption {
+    text-align: center;
 }
 
 footer {
