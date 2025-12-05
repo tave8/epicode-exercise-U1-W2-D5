@@ -1,7 +1,7 @@
 /* Your styles here */
 body {
   font-family: Arial, Helvetica, sans-serif;
-  padding: 0rem 17rem;
+  padding: 0rem 0rem;
 }
 
 .row {
@@ -152,6 +152,7 @@ main > .row-find-perfect-gift > .content > .wrapper {
   /* margin: auto; */
   /* width: max-content; */
   /* height: 100%;  */
+  text-align: center;
 }
 
 main > .row-find-perfect-gift > .content > .wrapper > .card {
