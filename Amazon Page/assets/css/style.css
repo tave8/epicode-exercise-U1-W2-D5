@@ -1,1 +1,81 @@
 /* Your styles here */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1rem 4rem;
+}
+
+.row {
+  padding: 0.2rem;
+  border: 1px solid black;
+}
+
+header {
+}
+
+header > .row {
+}
+
+/* header: row 1 */
+header > .row:nth-child(1) {
+  background-color: blue;
+}
+
+/* header: row 2 */
+header > .row:nth-child(2) {
+    background-color: rgb(80, 80, 182);
+}
+
+main {
+    background-color: beige;
+    padding: 1rem;
+}
+
+main > .row {
+    
+}
+
+main > .row:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+main > .row-shop-holiday-gift-card {
+    background-color: orange;
+}
+
+main > .row-holiday-gift-guides {
+    background-color: green;
+}
+
+main > .row-find-perfect-fit {
+    background-color: white;
+
+}
+
+main > .row-play-gifting-game {
+
+}
+
+main > .row-sound-cheer {
+
+}
+
+
+
+
+
+
+footer {
+    background-color: blue;
+}
+
+footer > .row {
+}
+
+
+footer > .row-back-top {
+    background-color: blue;
+}
+
+footer > .row-logo {
+    background-color: rgb(0, 255, 26);
+}
