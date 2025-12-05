@@ -7,6 +7,7 @@ REGOLE
 - Utilizza dei console.log() per testare le tue variabili e/o i risultati delle espressioni che stai creando.
 */
 
+
 /* ESERCIZIO 1
     Dato il seguente array, scrivi del codice per stampare ogni elemento dell'array in console.
 */

@@ -1,19 +1,19 @@
 /* Your styles here */
 body {
   font-family: Arial, Helvetica, sans-serif;
-  padding: 1rem 5rem;
+  padding: 0rem 17rem;
 }
 
 .row {
-  padding: 0.2rem;
+  /* padding: 0.2rem; */
   /* layout frame */
   /* border: 1px solid black; */
 }
 
 .action-shop {
   font-weight: bold;
-  color: green;
-  margin-inline: .5rem;
+  color: #195f6c;
+  margin-inline: 0.5rem;
 }
 
 .capitalize {
@@ -30,6 +30,18 @@ body {
 
 .background-color-amazon-secondary {
   background-color: #364759;
+}
+
+.row-caption {
+  /* margin-top: -0.3rem; */
+}
+
+.anche-responsive {
+  margin-block: 1rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 1.3rem;
 }
 
 header {
@@ -97,7 +109,8 @@ main > .row-holiday-gift-guides {
   background-image: url("../../../Amazon Page/assets/images/bg-image.png");
   background-position: left top;
   background-repeat: repeat;
-  background-size: 90%;
+  background-size: 100%;
+  /* height: 200px; */
 }
 
 main > .row-holiday-gift-guides > .text {
@@ -120,39 +133,49 @@ main > .row-holiday-gift-guides > .text > p.smaller {
 
 main > .row-find-perfect-gift {
   background-color: white;
-  padding: 0.5rem 0.8rem;
+  padding: 0.8rem 0.5rem;
 }
 
 main > .row-find-perfect-gift > .title {
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.8rem;
 }
 
 main > .row-find-perfect-gift > .content {
   /* height: 100%; */
+  /* padding: .2rem; */
+  /* this serves to contrast the margin-bottom of each card */
+  margin-bottom: -1rem;
 }
 
 /* the wrapper allows for centering items horizontally */
 main > .row-find-perfect-gift > .content > .wrapper {
-  margin: auto;
-  width: max-content;
-  /* height: 100%; */
+  /* margin: auto; */
+  /* width: max-content; */
+  /* height: 100%;  */
 }
 
 main > .row-find-perfect-gift > .content > .wrapper > .card {
   display: inline-block;
-  border-radius: 0.3rem;
-  box-shadow: 1px 1px 1px 1px;
-  width: 10rem;
-  height: 13rem;
+  border-radius: 0.4rem;
+  /* makes the child (an image) adapt to the parent's border-radius, 
+  so that i dont have to set the border-radius on the image as well */
+  overflow: hidden;
+  box-shadow: 4px 4px 15px 2px rgba(14, 14, 14, 0.2);
+  width: 23.3%;
+  height: 18rem;
+  min-width: 200px;
+  min-height: 200px;
+  margin-bottom: 1rem;
 }
 
 main > .row-find-perfect-gift > .content > .wrapper > .card:not(:last-child) {
-  margin-right: 0.5rem;
+  margin-right: 1rem;
 }
 
 main > .row-find-perfect-gift > .content > .wrapper > .card > img {
   object-fit: cover;
   width: 100%;
+  height: 100%;
 }
 
 main > .row-play-gifting-game {
