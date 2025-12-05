@@ -6,7 +6,30 @@ body {
 
 .row {
   padding: 0.2rem;
-  border: 1px solid black;
+  /* layout frame */
+  /* border: 1px solid black; */
+}
+
+.action-shop {
+  font-weight: bold;
+  color: green;
+  margin-inline: .5rem;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.caption {
+  font-size: 0.9rem;
+}
+
+.background-color-amazon-primary {
+  background-color: #222f3f;
+}
+
+.background-color-amazon-secondary {
+  background-color: #364759;
 }
 
 header {
@@ -17,7 +40,6 @@ header > .row {
 
 header > .row-logo {
   padding: 0.5rem 1rem;
-  background-color: blue;
 }
 
 header > .row-logo > img {
@@ -26,7 +48,6 @@ header > .row-logo > img {
 
 header > .row-menu {
   padding: 0.5rem 1rem;
-  background-color: rgb(80, 80, 182);
   color: white;
   font-size: 0.8rem;
 }
@@ -44,7 +65,7 @@ header > .row-menu > ul > li:not(:last-child) {
 }
 
 main {
-  background-color: beige;
+  background-color: #e9edee;
   padding: 1rem;
 }
 
@@ -56,8 +77,9 @@ main > .row:not(:last-child) {
 }
 
 main > .row-shop-holiday-gift-cards {
-  background-color: orange;
+  background-color: #f56600;
   text-align: center;
+  font-size: 0.7rem;
   height: 20%;
   padding-block: 0.5rem;
   color: white;
@@ -162,24 +184,22 @@ main > .row-sound-cheer > .row-caption {
 }
 
 footer {
-  background-color: blue;
 }
 
 footer > .row {
 }
 
 footer > .row-back-top {
-  background-color: blue;
   text-align: center;
   padding-block: 0.5rem;
 }
 
 footer > .row-back-top a {
   color: white;
+  font-size: 0.8rem;
 }
 
 footer > .row-logo {
-  background-color: rgb(0, 255, 26);
   padding-block: 2rem;
 }
 
